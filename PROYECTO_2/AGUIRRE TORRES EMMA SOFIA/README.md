@@ -54,7 +54,9 @@ $$
 
 ## Aplicación web
 
-Enlace público: _(pegar aquí el enlace de Streamlit Community Cloud)_
+Enlace público: **https://proyectoscalculodiferencialeintegral-lct252yf66nvyv9tudxzaq.streamlit.app/**
+
+> La app se publica desde la rama `app-web`, que es igual a `main` pero con `requirements.txt` en la raíz del repositorio: Streamlit Community Cloud no maneja rutas con espacios.
 
 ## Estructura
 
