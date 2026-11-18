@@ -78,7 +78,7 @@ Desde esta carpeta, con Python 3.10 o superior:
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 pytest                      # pruebas
 python -m src.reporte       # regenera resultados/
 streamlit run app.py        # abre la aplicación en http://localhost:8501
