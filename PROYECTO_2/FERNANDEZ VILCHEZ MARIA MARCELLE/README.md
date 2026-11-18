@@ -40,3 +40,9 @@ El umbral recomendado $c$ debe alcanzar la sensibilidad mínima con el menor cos
 ## Cómo revisar
 
 Leer el informe y contrastar sus resultados con las tablas y fórmulas del archivo `.xlsx`.
+
+## Entrega del proyecto
+
+- **Aplicación web:** https://somnolencia-golfito-marcelle.streamlit.app
+- **Repositorio espejo con integración continua (pruebas en verde):** https://github.com/MarcelleFernandez/somnolencia-golfito
+- **Documentación del proyecto:** ver [README_PROYECTO.md](README_PROYECTO.md)
