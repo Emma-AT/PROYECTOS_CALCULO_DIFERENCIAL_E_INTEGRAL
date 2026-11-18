@@ -1,0 +1,10 @@
+numpy
+pandas
+openpyxl
+matplotlib
+plotly
+scipy
+streamlit
+pytest
+ruff
+ipykernel
