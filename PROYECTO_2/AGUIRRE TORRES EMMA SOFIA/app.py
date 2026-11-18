@@ -30,7 +30,7 @@ def millones(x: float) -> str:
 
 
 # ============================ Barra lateral ============================
-st.sidebar.title("🌬️ Planta Eólica Tejona")
+st.sidebar.title("Planta Eólica Tejona")
 st.sidebar.caption("Tilarán, Guanacaste · 30 turbinas Vestas V47 de 660 kW")
 subido = st.sidebar.file_uploader("Cargar otra base (.xlsx, misma estructura)", type="xlsx")
 contenido = subido.getvalue() if subido else RUTA_EXCEL.read_bytes()
@@ -94,9 +94,9 @@ st.markdown(
 texto = recomendar(tabla)
 texto_80 = recomendar(tabla, "vpn_precio_80_colones")
 if texto.startswith("Repotenciar"):
-    st.success(f"### ✅ {texto}")
+    st.success(f"### {texto}")
 else:
-    st.warning(f"### ⏸️ {texto}")
+    st.warning(f"### {texto}")
 st.caption(f"Revisión con precio 20 % menor (₡{0.8 * precio:.1f}/kWh): {texto_80}")
 
 fila = tabla[tabla["opcion"] == elegida].iloc[0]
@@ -118,9 +118,7 @@ c4.metric(
     help="Precio con el que el VPN vale 0. Por debajo de él conviene mantener.",
 )
 
-pestanas = st.tabs(
-    ["📊 Decisión", "🌀 Viento y energía", "💰 Sensibilidad", "✔️ Validación", "🧹 Datos"]
-)
+pestanas = st.tabs(["Decisión", "Viento y energía", "Sensibilidad", "Validación", "Datos"])
 
 # ============================ 1. Decisión ============================
 with pestanas[0]:
