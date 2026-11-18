@@ -1,0 +1,4 @@
+escenario,epocas_usadas,AUC,umbral,sensibilidad,especificidad,omisiones,falsas_alarmas,costo,falsas_alarmas_por_hora
+Base (Parametros),46,0.9479166666666667,1.7240851021769752,1.0,0.8333333333333334,0,5,5.0,2.0
+Chofer prioritario (falsa alarma x10),46,0.9479166666666667,1.7814543339150668,0.9375,0.8666666666666667,1,4,48.0,1.6
+Equipo sin filtro de artefactos,48,0.888671875,1.7240851021769752,1.0,0.78125,0,7,7.0,2.625
