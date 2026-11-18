@@ -48,11 +48,43 @@ $$
 VPN=-I+(\Delta E_{\mathrm{anual}}p-\Delta M)\frac{1-(1+r)^{-n}}{r}
 $$
 
-## Archivos
+## Resultado de las pruebas
 
-- [Informe PDF](P09_C-01_AGUIRRE.pdf)
-- [Datos y cálculos](P09_C-01_AGUIRRE.xlsx)
+![pruebas](https://github.com/Emma-AT/PROYECTOS_CALCULO_DIFERENCIAL_E_INTEGRAL/actions/workflows/pruebas.yml/badge.svg)
 
-## Cómo revisar
+## Aplicación web
 
-Leer el informe y contrastar sus resultados con las tablas y fórmulas del archivo `.xlsx`.
+Enlace público: _(pegar aquí el enlace de Streamlit Community Cloud)_
+
+## Estructura
+
+| Carpeta / archivo | Contenido |
+|---|---|
+| `datos/` | Excel entregado, sin modificar |
+| `src/limpieza.py` | Lectura, validación, faltantes, picos y densidad del aire |
+| `src/modelo.py` | Trapecio, Simpson, clase `Turbina`, potencia, Weibull |
+| `src/escenarios.py` | Energía anual, factor de planta, VPN y recomendación |
+| `src/reporte.py` | Genera tablas y figuras en `resultados/` |
+| `tests/` | Pruebas con pytest |
+| `analisis.ipynb` | Análisis completo |
+| `app.py` | Aplicación web (Streamlit) |
+| `docs/` | Diccionario de datos y bitácora de supuestos |
+| `informe/`, `presentacion/` | Ficha técnica, resumen ejecutivo y diapositivas (PDF) |
+
+## Cómo ejecutar
+
+Desde esta carpeta, con Python 3.10 o superior:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+pytest                      # pruebas
+python -m src.reporte       # regenera resultados/
+streamlit run app.py        # abre la aplicación en http://localhost:8501
+```
+
+## Archivos del enunciado
+
+- [Enunciado (PDF)](P09_C-01_AGUIRRE.pdf)
+- [Base de datos original](P09_C-01_AGUIRRE.xlsx)
