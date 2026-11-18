@@ -1,9 +1,5 @@
+streamlit
 numpy
 pandas
 openpyxl
-scipy
 matplotlib
-pytest
-streamlit
-ruff
-black
