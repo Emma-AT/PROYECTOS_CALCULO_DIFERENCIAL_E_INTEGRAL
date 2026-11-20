@@ -1,0 +1,25 @@
+grupo,integral,método A,valor A,método B,valor B,error relativo
+G01,"∫ f_k dt en [0, T] (sin unidad)",Simpson propio,1.000000000009919,valor exacto,1.0,9.918954546606074e-12
+G01,IP del modelo (sin unidad),Simpson propio,0.8007000002497207,fórmula cerrada,0.8007000002664898,2.0943101817490483e-11
+G01,IP del modelo (sin unidad),Simpson propio,0.8007000002497207,scipy.integrate.quad,0.8007000002664887,2.0941715251955036e-11
+G01,fracción de las últimas 24 h,Simpson propio,0.6061659538233936,fórmula ln(1+hk)/ln(1+kT),0.6061659538208112,4.2601844247449956e-12
+G01,IP observado (sin unidad),trapecio propio,0.8007000000000001,promedio de t/T,0.8007116147741148,1.4505564675724723e-05
+G01,IP observado (sin unidad),trapecio propio,0.8007000000000001,scipy.integrate.trapezoid,0.8007000000000001,0.0
+G02,"∫ f_k dt en [0, T] (sin unidad)",Simpson propio,1.0000000000011846,valor exacto,1.0,1.184607967275042e-12
+G02,IP del modelo (sin unidad),Simpson propio,0.7798018868458888,fórmula cerrada,0.7798018868494065,4.51107096923984e-12
+G02,IP del modelo (sin unidad),Simpson propio,0.7798018868458888,scipy.integrate.quad,0.7798018868493946,4.495694745011476e-12
+G02,fracción de las últimas 24 h,Simpson propio,0.5627619630591718,fórmula ln(1+hk)/ln(1+kT),0.5627619630588632,5.484414745591299e-13
+G02,IP observado (sin unidad),trapecio propio,0.779801886792453,promedio de t/T,0.7798210542078466,2.4579248393236904e-05
+G02,IP observado (sin unidad),trapecio propio,0.779801886792453,scipy.integrate.trapezoid,0.779801886792453,0.0
+G03,"∫ f_k dt en [0, T] (sin unidad)",Simpson propio,1.0000000000000022,valor exacto,1.0,2.220446049250313e-15
+G03,IP del modelo (sin unidad),Simpson propio,0.6996903114315163,fórmula cerrada,0.6996903114315556,5.6170414867285313e-14
+G03,IP del modelo (sin unidad),Simpson propio,0.6996903114315163,scipy.integrate.quad,0.6996903114315518,5.0775516264212986e-14
+G03,fracción de las últimas 24 h,Simpson propio,0.40099548180378897,fórmula ln(1+hk)/ln(1+kT),0.40099548180378836,1.5227669419043996e-15
+G03,IP observado (sin unidad),trapecio propio,0.6996903114186852,promedio de t/T,0.6997185148569232,4.0306834304244936e-05
+G03,IP observado (sin unidad),trapecio propio,0.6996903114186852,scipy.integrate.trapezoid,0.6996903114186852,0.0
+G04,"∫ f_k dt en [0, T] (sin unidad)",Simpson propio,1.0000000000224183,valor exacto,1.0,2.2418289447045936e-11
+G04,IP del modelo (sin unidad),Simpson propio,0.8079098944488748,fórmula cerrada,0.8079098944794273,3.781665463937773e-11
+G04,IP del modelo (sin unidad),Simpson propio,0.8079098944488748,scipy.integrate.quad,0.8079098944794149,3.780126369298594e-11
+G04,fracción de las últimas 24 h,Simpson propio,0.5736208498456331,fórmula ln(1+hk)/ln(1+kT),0.5736208498434974,3.723253841024281e-12
+G04,IP observado (sin unidad),trapecio propio,0.8079098939929329,promedio de t/T,0.8079036339048117,7.74855794490742e-06
+G04,IP observado (sin unidad),trapecio propio,0.8079098939929329,scipy.integrate.trapezoid,0.8079098939929329,0.0

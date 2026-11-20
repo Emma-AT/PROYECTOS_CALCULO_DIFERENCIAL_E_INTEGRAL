@@ -1,0 +1,48 @@
+[theme]
+base = "light"
+primaryColor = "#2E7D32"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EEF6EE"
+textColor = "#111111"
+linkColor = "#1B5E20"
+borderColor = "#CFE3D0"
+font = "sans-serif"
+headingFontWeights = [700, 700, 650, 600, 600, 600]
+baseRadius = "large"
+buttonRadius = "medium"
+metricValueFontWeight = 700
+
+greenColor = "#2E7D32"
+greenBackgroundColor = "#E3F1E3"
+greenTextColor = "#1B5E20"
+blueColor = "#2E7D32"
+blueBackgroundColor = "#EEF6EE"
+blueTextColor = "#1B5E20"
+redColor = "#111111"
+redBackgroundColor = "#F0F0F0"
+redTextColor = "#111111"
+orangeColor = "#333333"
+orangeBackgroundColor = "#F4F4F4"
+orangeTextColor = "#111111"
+yellowColor = "#333333"
+yellowBackgroundColor = "#F4F4F4"
+yellowTextColor = "#111111"
+grayColor = "#555555"
+grayBackgroundColor = "#F2F2F2"
+grayTextColor = "#333333"
+
+dataframeHeaderBackgroundColor = "#E3F1E3"
+dataframeHeaderTextColor = "#111111"
+dataframeBorderColor = "#CFE3D0"
+chartCategoricalColors = ["#81C784", "#2E7D32", "#1B5E20", "#111111", "#A5D6A7", "#4CAF50"]
+
+[theme.sidebar]
+backgroundColor = "#F4FAF4"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#111111"
+borderColor = "#CFE3D0"
+primaryColor = "#2E7D32"
+linkColor = "#1B5E20"
+
+[browser]
+gatherUsageStats = false

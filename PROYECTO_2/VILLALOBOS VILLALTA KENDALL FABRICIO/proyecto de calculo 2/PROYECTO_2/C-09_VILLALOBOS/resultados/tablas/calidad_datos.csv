@@ -1,0 +1,8 @@
+﻿hoja;columna;registros;faltantes;minimo;maximo
+Concentraciones;tiempo_h;780;0;0,25;24,0
+Concentraciones;concentracion_mg_L;780;6;0,0026;13,57
+Voluntarios;edad;60;0;18,0;26,0
+Voluntarios;peso_kg;60;0;45,0;96,7
+Voluntarios;tazas_cafe_habituales_dia;60;0;0,0;4,0
+Pruebas_atencion;tiempo_h;480;0;0,0;12,0
+Pruebas_atencion;tiempo_reaccion_ms;480;0;128,0;400,0

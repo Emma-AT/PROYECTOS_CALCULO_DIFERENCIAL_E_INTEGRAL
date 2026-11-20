@@ -1,0 +1,32 @@
+{
+  "b": 1.1246490623142,
+  "r": 0.067,
+  "H": 50.0,
+  "lambda3": 20.833333333333332,
+  "prob6_50": 0.3561782331254896,
+  "prob7_50": 0.03250694879038323,
+  "indicadores": {
+    "linea_base_cm_s2": 1.530928,
+    "PGA_cm_s2": 186.018928,
+    "PGV_cm_s": 13.023220639999934,
+    "PGD_cm": 8.858054400002779,
+    "IA_m_s": 0.40693711555626577,
+    "t5_s": 7.972231077170089,
+    "t95_s": 18.563704344519145,
+    "duracion_s": 10.591473267349055,
+    "desplazamiento_final_cm": 8.858054400002779,
+    "desplazamiento_final_sin_corregir_cm": 697.7756544000036
+  },
+  "recomendacion": {
+    "escenario": "Opción A",
+    "costo_colones": 63000000.0,
+    "pae_colones_ano": 1906187.189224309,
+    "ahorro_anual_colones": 5879060.405689008,
+    "vpn_colones": 21668617.442321733,
+    "plazo_meses": 3.0,
+    "ahorro_anual_por_colon": 0.09331841913792076,
+    "descripcion": "Encamisado de columnas y vigas"
+  },
+  "sha256_excel": "d05622075b39ac6e209514f972fc7ec0888650f9c254d6f5182d2c6589b5f5a0",
+  "anos_catalogo": 30
+}

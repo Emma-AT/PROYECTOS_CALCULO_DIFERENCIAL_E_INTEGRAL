@@ -1,0 +1,12 @@
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secretos (nunca subir claves)
+.env
+.streamlit/secrets.toml

@@ -1,0 +1,10 @@
+﻿voluntario;tiempo_h;estado;valor_original;valor_final;tratamiento
+V04;4,0;atípico;3,6;1,3729;interpolación lineal en el tiempo
+V17;1,0;atípico;13,57;4,0487;interpolación lineal en el tiempo
+V21;10,0;atípico;2,39;0,8162;interpolación lineal en el tiempo
+V31;0,5;faltante;;4,6372;interpolación lineal en el tiempo
+V31;24,0;faltante;;0,0776;extrapolación exponencial (fase terminal)
+V32;3,0;faltante;;1,8002;interpolación lineal en el tiempo
+V44;0,25;faltante;;2,924;interpolación lineal en el tiempo
+V45;4,0;faltante;;1,5984;interpolación lineal en el tiempo
+V48;24,0;faltante;;0,5059;extrapolación exponencial (fase terminal)
