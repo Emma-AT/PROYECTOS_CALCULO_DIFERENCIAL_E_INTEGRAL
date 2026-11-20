@@ -1,0 +1,21 @@
+[project]
+name = "cafeina-atencion-sueno"
+version = "1.0.0"
+description = "Proyecto 2 (C-09) MA-0321: cafeína, atención y sueño en semana de exámenes"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = ["analisis.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["N802"]
+"src/documentos.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

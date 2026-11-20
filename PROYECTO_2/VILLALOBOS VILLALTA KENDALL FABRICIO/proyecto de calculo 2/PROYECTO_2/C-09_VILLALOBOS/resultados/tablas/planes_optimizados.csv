@@ -1,0 +1,4 @@
+﻿grupo;descripcion;n_tomas;horas_efecto;c_dormir;pct_personas_duermen_bien;cafeina_mg
+rápida;08:00 Energética grande + 13:00 Gaseosa de cola + 15:00 Espresso;3;10,7738;0,6895;80,0;258,0
+normal;08:00 Energética grande + 14:00 Té negro;2;10,8566;0,8783;80,0;205,0
+lenta;08:00 Bebida energética + 09:00 Té negro;2;6,7086;0,6911;80,0;125,0

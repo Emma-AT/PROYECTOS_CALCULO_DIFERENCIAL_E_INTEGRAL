@@ -1,0 +1,24 @@
+name: Pruebas C-03 FONSECA
+on:
+  push:
+    paths: ['PROYECTO_2/C-03_FONSECA/**', '.github/workflows/pruebas.yml']
+  pull_request:
+    paths: ['PROYECTO_2/C-03_FONSECA/**', '.github/workflows/pruebas.yml']
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: PROYECTO_2/C-03_FONSECA
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: PROYECTO_2/C-03_FONSECA/requirements.txt
+      - run: python -m pip install -r requirements.txt
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: pytest -q
+      - run: python -m src.reporte

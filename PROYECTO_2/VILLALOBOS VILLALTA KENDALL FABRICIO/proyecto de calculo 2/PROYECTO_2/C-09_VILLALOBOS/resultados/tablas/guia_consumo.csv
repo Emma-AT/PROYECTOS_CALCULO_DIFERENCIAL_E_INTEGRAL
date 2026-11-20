@@ -1,0 +1,4 @@
+﻿grupo;vida_media_h;plan;descripcion;horas_efecto;c_dormir;cafeina_mg;hora_limite_ultima_toma;maximo_diario_mg;mejora_rt_ms;pct_personas_duermen_bien
+rápida;3,6098;E;08:00 Café chorreado + 14:00 Energética grande;7,8672;0,841;255,0;15,0546;303,1954;46,2451;60,0
+normal;5,1472;B;08:00 Café chorreado + 13:00 Café chorreado;9,6905;0,9467;190,0;13,6057;200,6941;47,1973;55,0
+lenta;6,8779;A;08:00 Café chorreado;3,8216;0,5059;95,0;14,7615;187,7845;30,3305;85,0

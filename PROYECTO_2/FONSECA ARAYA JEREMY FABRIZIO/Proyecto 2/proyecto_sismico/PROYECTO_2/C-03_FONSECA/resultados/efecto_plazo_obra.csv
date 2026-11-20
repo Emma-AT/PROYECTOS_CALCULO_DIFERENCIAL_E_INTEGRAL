@@ -1,0 +1,4 @@
+﻿escenario,costo_colones,pae_colones_ano,ahorro_anual_colones,vpn_colones,plazo_meses,ahorro_anual_por_colon,descripcion,vpn_beneficio_tras_obra_colones
+Sin refuerzo,0.0,7785247.594913317,0.0,0.0,0.0,,Mantener el estado actual,0.0
+Opción A,63000000.0,1906187.189224309,5879060.405689008,21668617.442321733,3.0,0.09331841913792076,Encamisado de columnas y vigas,20211093.18362753
+Opción B,164000000.0,602390.7140860055,7182856.880827311,-60554462.88709441,6.0,0.04379790780992263,Muros de corte y refuerzo de fundaciones,-64086401.05949715
