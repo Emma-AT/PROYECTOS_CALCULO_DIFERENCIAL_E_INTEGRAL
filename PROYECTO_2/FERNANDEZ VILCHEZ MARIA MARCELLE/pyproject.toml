@@ -1,0 +1,20 @@
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+# E741: "I" es la notación del enunciado para el índice de somnolencia.
+# E501: black ya da formato; solo quedan cadenas largas que no se parten.
+ignore = ["E741", "E501"]
+
+[tool.ruff.lint.per-file-ignores]
+# El cuaderno usa un estilo compacto y agrega la raíz al path antes de importar.
+"*.ipynb" = ["E402", "E702"]
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

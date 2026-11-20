@@ -1,0 +1,55 @@
+﻿grupo;plan;descripcion;n_tomas;horas_efecto;c_dormir;c_media_jornada;mejora_rt_ms;cafeina_mg;pct_personas_duermen_bien;cumple_sueno;cumple_maximo;cumple;escenario
+rápida;A;08:00 Café chorreado;1;1,9574;0,1329;0,8591;20,5638;95,0;100,0;True;True;True;Base (día 1)
+rápida;B;08:00 Café chorreado + 13:00 Café chorreado;2;5,9127;0,4799;1,5528;37,1697;190,0;100,0;True;True;True;Base (día 1)
+rápida;C;08:00 Café chorreado + 16:00 Café chorreado;2;5,1393;0,7502;1,3441;32,1738;190,0;75,0;True;True;True;Base (día 1)
+rápida;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;9,8874;1,0366;2,0846;49,9001;285,0;40,0;False;True;False;Base (día 1)
+rápida;E;08:00 Café chorreado + 14:00 Energética grande;2;7,8672;0,841;1,9319;46,2451;255,0;60,0;True;True;True;Base (día 1)
+rápida;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;3,8081;1,0093;1,1341;27,1461;189,0;45,0;False;True;False;Base (día 1)
+normal;A;08:00 Café chorreado;1;3,1511;0,3198;1,1282;27,0065;95,0;100,0;True;True;True;Base (día 1)
+normal;B;08:00 Café chorreado + 13:00 Café chorreado;2;9,6905;0,9467;1,9717;47,1973;190,0;55,0;True;True;True;Base (día 1)
+normal;C;08:00 Café chorreado + 16:00 Café chorreado;2;7,0306;1,2588;1,6825;40,273;190,0;15,0;False;True;False;Base (día 1)
+normal;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;11,1368;1,8068;2,5992;62,2164;285,0;0,0;False;True;False;Base (día 1)
+normal;E;08:00 Café chorreado + 14:00 Energética grande;2;9,1116;1,5279;2,4078;57,635;255,0;10,0;False;True;False;Base (día 1)
+normal;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;5,7153;1,5685;1,3805;33,0454;189,0;10,0;False;True;False;Base (día 1)
+lenta;A;08:00 Café chorreado;1;3,8216;0,5059;1,2671;30,3305;95,0;85,0;True;True;True;Base (día 1)
+lenta;B;08:00 Café chorreado + 13:00 Café chorreado;2;10,8035;1,3432;2,1634;51,7847;190,0;0,0;False;True;False;Base (día 1)
+lenta;C;08:00 Café chorreado + 16:00 Café chorreado;2;7,739;1,6388;1,8327;43,8684;190,0;0,0;False;True;False;Base (día 1)
+lenta;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;11,6065;2,3959;2,8187;67,4724;285,0;0,0;False;True;False;Base (día 1)
+lenta;E;08:00 Café chorreado + 14:00 Energética grande;2;9,7984;2,0657;2,6093;62,4593;255,0;0,0;False;True;False;Base (día 1)
+lenta;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;5,8609;1,9437;1,4724;35,2455;189,0;0,0;False;True;False;Base (día 1)
+rápida;A;08:00 Café chorreado;1;2,0238;0,1342;0,8684;20,7867;95,0;100,0;True;True;True;Semana de exámenes (5 días)
+rápida;B;08:00 Café chorreado + 13:00 Café chorreado;2;6,2059;0,4847;1,5864;37,9748;190,0;100,0;True;True;True;Semana de exámenes (5 días)
+rápida;C;08:00 Café chorreado + 16:00 Café chorreado;2;5,5595;0,7578;1,3967;33,4324;190,0;70,0;True;True;True;Semana de exámenes (5 días)
+rápida;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;10,3921;1,047;2,1573;51,6392;285,0;40,0;False;True;False;Semana de exámenes (5 días)
+rápida;E;08:00 Café chorreado + 14:00 Energética grande;2;8,2867;0,8495;1,9909;47,6561;255,0;60,0;True;True;True;Semana de exámenes (5 días)
+rápida;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;3,9797;1,0194;1,2048;28,8393;189,0;45,0;False;True;False;Semana de exámenes (5 días)
+normal;A;08:00 Café chorreado;1;3,493;0,3329;1,1774;28,1825;95,0;100,0;True;True;True;Semana de exámenes (5 días)
+normal;B;08:00 Café chorreado + 13:00 Café chorreado;2;10,9797;0,9856;2,1172;50,679;190,0;40,0;True;True;True;Semana de exámenes (5 días)
+normal;C;08:00 Café chorreado + 16:00 Café chorreado;2;8,3142;1,3106;1,8759;44,9025;190,0;10,0;False;True;False;Semana de exámenes (5 días)
+normal;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;11,8185;1,881;2,8768;68,8611;285,0;0,0;False;True;False;Semana de exámenes (5 días)
+normal;E;08:00 Café chorreado + 14:00 Energética grande;2;10,6299;1,5907;2,6425;63,2541;255,0;10,0;False;True;False;Semana de exámenes (5 días)
+normal;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;7,3923;1,633;1,6215;38,8139;189,0;5,0;False;True;False;Semana de exámenes (5 días)
+lenta;A;08:00 Café chorreado;1;4,8444;0,5553;1,3972;33,4439;95,0;85,0;True;True;True;Semana de exámenes (5 días)
+lenta;B;08:00 Café chorreado + 13:00 Café chorreado;2;11,8201;1,4745;2,5087;60,0514;190,0;0,0;False;True;False;Semana de exámenes (5 días)
+lenta;C;08:00 Café chorreado + 16:00 Café chorreado;2;10,7731;1,799;2,254;53,9543;190,0;0,0;False;True;False;Semana de exámenes (5 días)
+lenta;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;11,9246;2,6301;3,4347;82,2175;285,0;0,0;False;True;False;Semana de exámenes (5 días)
+lenta;E;08:00 Café chorreado + 14:00 Energética grande;2;11,8952;2,2676;3,1404;75,1722;255,0;0,0;False;True;False;Semana de exámenes (5 días)
+lenta;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;9,6345;2,1336;1,9721;47,2074;189,0;0,0;False;True;False;Semana de exámenes (5 días)
+rápida;A;08:00 Café chorreado;1;1,9574;0,161;0,8591;20,5638;95,0;100,0;True;True;True;Acostarse 1 h antes
+rápida;B;08:00 Café chorreado + 13:00 Café chorreado;2;5,9127;0,5815;1,5528;37,1697;190,0;90,0;True;True;True;Acostarse 1 h antes
+rápida;C;08:00 Café chorreado + 16:00 Café chorreado;2;5,1393;0,909;1,3441;32,1738;190,0;60,0;True;True;True;Acostarse 1 h antes
+rápida;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;9,8874;1,256;2,0846;49,9001;285,0;30,0;False;True;False;Acostarse 1 h antes
+rápida;E;08:00 Café chorreado + 14:00 Energética grande;2;7,8672;1,0191;1,9319;46,2451;255,0;40,0;False;True;False;Acostarse 1 h antes
+rápida;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;3,8081;1,2229;1,1341;27,1461;189,0;30,0;False;True;False;Acostarse 1 h antes
+normal;A;08:00 Café chorreado;1;3,1511;0,3658;1,1282;27,0065;95,0;100,0;True;True;True;Acostarse 1 h antes
+normal;B;08:00 Café chorreado + 13:00 Café chorreado;2;9,6905;1,0832;1,9717;47,1973;190,0;25,0;False;True;False;Acostarse 1 h antes
+normal;C;08:00 Café chorreado + 16:00 Café chorreado;2;7,0306;1,4403;1,6825;40,273;190,0;10,0;False;True;False;Acostarse 1 h antes
+normal;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;11,1368;2,0672;2,5992;62,2164;285,0;0,0;False;True;False;Acostarse 1 h antes
+normal;E;08:00 Café chorreado + 14:00 Energética grande;2;9,1116;1,7482;2,4078;57,635;255,0;0,0;False;True;False;Acostarse 1 h antes
+normal;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;5,7153;1,7946;1,3805;33,0454;189,0;0,0;False;True;False;Acostarse 1 h antes
+lenta;A;08:00 Café chorreado;1;3,8216;0,5595;1,2671;30,3305;95,0;85,0;True;True;True;Acostarse 1 h antes
+lenta;B;08:00 Café chorreado + 13:00 Café chorreado;2;10,8035;1,4857;2,1634;51,7847;190,0;0,0;False;True;False;Acostarse 1 h antes
+lenta;C;08:00 Café chorreado + 16:00 Café chorreado;2;7,739;1,8126;1,8327;43,8684;190,0;0,0;False;True;False;Acostarse 1 h antes
+lenta;D;08:00 Café chorreado + 12:00 Café chorreado + 16:00 Café chorreado;3;11,6065;2,6499;2,8187;67,4724;285,0;0,0;False;True;False;Acostarse 1 h antes
+lenta;E;08:00 Café chorreado + 14:00 Energética grande;2;9,7984;2,2847;2,6093;62,4593;255,0;0,0;False;True;False;Acostarse 1 h antes
+lenta;F;10:00 Espresso + 14:00 Espresso + 18:00 Espresso;3;5,8609;2,1497;1,4724;35,2455;189,0;0,0;False;True;False;Acostarse 1 h antes

@@ -1,0 +1,5 @@
+﻿factor;categoria;n;mediana_t12_h;media_t12_h;p_valor
+fuma;Sí;11;3,131;3,4694;0,0002
+fuma;No;49;5,499;6,0199;0,0002
+anticonceptivo_hormonal;Sí;9;7,1975;9,2995;0,0004
+anticonceptivo_hormonal;No;51;4,8138;4,8911;0,0004

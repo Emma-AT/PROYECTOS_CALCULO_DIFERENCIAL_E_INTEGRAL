@@ -1,0 +1,37 @@
+﻿parametro;cambio;grupo;plan;horas_efecto;horas_efecto_plan_base;c_dormir_plan_base;cambia_decision
+k (eliminación);-20%;rápida;B;7,7673;8,4197;1,2202;True
+k (eliminación);-20%;normal;A;3,9493;10,9331;1,2876;True
+k (eliminación);-20%;lenta;A;4,7931;4,7931;0,6798;False
+k (eliminación);+20%;rápida;D;8,9284;6,4136;0,5839;True
+k (eliminación);+20%;normal;B;7,823;7,823;0,699;False
+k (eliminación);+20%;lenta;A;3,1728;3,1728;0,3765;False
+V (volumen);-20%;rápida;B;8,4439;9,2223;1,0513;True
+V (volumen);-20%;normal;A;4,9265;11,7473;1,1834;True
+V (volumen);-20%;lenta;A;6,1635;6,1635;0,6324;False
+V (volumen);+20%;rápida;D;7,7781;5,4574;0,7009;True
+V (volumen);+20%;normal;B;6,7084;6,7084;0,7889;False
+V (volumen);+20%;lenta;A;1,7738;1,7738;0,4216;False
+ka (absorción);-20%;rápida;E;7,818;7,818;0,8557;False
+ka (absorción);-20%;normal;B;9,7568;9,7568;0,958;False
+ka (absorción);-20%;lenta;A;3,8035;3,8035;0,5103;False
+ka (absorción);+20%;rápida;E;7,8407;7,8407;0,8316;False
+ka (absorción);+20%;normal;B;9,6455;9,6455;0,9394;False
+ka (absorción);+20%;lenta;A;3,8324;3,8324;0,503;False
+umbral de efecto;-20%;rápida;E;9,2223;9,2223;0,841;False
+umbral de efecto;-20%;normal;B;11,7473;11,7473;0,9467;False
+umbral de efecto;-20%;lenta;A;6,1635;6,1635;0,5059;False
+umbral de efecto;+20%;rápida;E;5,4574;5,4574;0,841;False
+umbral de efecto;+20%;normal;B;6,7084;6,7084;0,9467;False
+umbral de efecto;+20%;lenta;A;1,7738;1,7738;0,5059;False
+umbral de sueño;-20%;rápida;B;5,9127;7,8672;0,841;True
+umbral de sueño;-20%;normal;A;3,1511;9,6905;0,9467;True
+umbral de sueño;-20%;lenta;A;3,8216;3,8216;0,5059;False
+umbral de sueño;+20%;rápida;D;9,8874;7,8672;0,841;True
+umbral de sueño;+20%;normal;B;9,6905;9,6905;0,9467;False
+umbral de sueño;+20%;lenta;A;3,8216;3,8216;0,5059;False
+hora de dormir;-1 h;rápida;B;5,9127;7,8672;1,0191;True
+hora de dormir;-1 h;normal;A;3,1511;9,6905;1,0832;True
+hora de dormir;-1 h;lenta;A;3,8216;3,8216;0,5595;False
+hora de dormir;+1 h;rápida;D;9,8874;7,8672;0,6941;True
+hora de dormir;+1 h;normal;B;9,6905;9,6905;0,8274;False
+hora de dormir;+1 h;lenta;A;3,8216;3,8216;0,4574;False

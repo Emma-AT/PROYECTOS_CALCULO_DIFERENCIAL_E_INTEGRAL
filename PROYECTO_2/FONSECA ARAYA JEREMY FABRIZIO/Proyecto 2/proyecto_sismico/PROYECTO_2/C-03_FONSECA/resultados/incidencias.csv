@@ -1,0 +1,7 @@
+﻿hoja,variable,tipo,cantidad,criterio
+Catalogo_sismos,profundidad_km,Faltantes,6,Se conservan vacíos; no intervienen en b ni lambda
+Acelerograma,aceleracion_cm_s2,Faltantes,3,Interpolación lineal interna
+Catalogo_sismos,magnitud_Mw,Señal IQR,23,Conservar: cola sísmica plausible; señal estadística no prueba error
+Catalogo_sismos,profundidad_km,Señal IQR,18,Conservar: cola sísmica plausible; señal estadística no prueba error
+Catalogo_sismos,distancia_sitio_km,Señal IQR,0,Conservar: cola sísmica plausible; señal estadística no prueba error
+Acelerograma,aceleracion_cm_s2,Picos,0,No se recortan picos: representan el movimiento sísmico

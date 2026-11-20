@@ -1,0 +1,6 @@
+caso,G01,G02,G03,G04,elegida
+"Base: notas >100 ÷10, faltantes excluidas",70.78,72.18,78.32,72.76,G03
+Notas >100 descartadas,70.78,72.18,78.34,72.76,G03
+Notas >100 con tope 100,70.78,72.18,78.42,73.04,G03
+Faltantes con media grupo-tarea,70.78,72.17,78.33,72.76,G03
+No entregas cuentan como 0,67.28,68.38,76.26,70.37,G03
